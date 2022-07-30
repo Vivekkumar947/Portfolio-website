@@ -1,0 +1,234 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+.sidebar{
+    background-color: rgb(220, 211, 211);
+    width: 30vw;
+    height: 100vh;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    transition:transform 0.3s ease-in ;
+}
+.sidebar nav{
+    padding: 45px;
+    
+
+
+}
+.sidebar nav li{
+    padding: 33px 0px;
+   
+    list-style: none;
+    font-size: 30px;
+    
+
+}
+.sidebar nav li a{
+   
+    text-decoration: none;
+    color:black;
+}
+.main{
+   
+    width: 90vw;
+
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    
+    display: flex;
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.vivekInfo{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    font-size: 50px;
+
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+}
+.about{
+    font-size: 30px ;
+}
+.moreabout{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.btn{
+    margin-top: 34px;
+}
+.btn button{
+    padding: 9px 14px;
+    font-size: 21px;
+    font-weight: bold;
+    margin:0px 3px;
+    color: white;
+    border-radius: 22px;
+    cursor: pointer;
+    background-color: dodgerblue;
+}
+.btn button:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+.vivekpic img{
+    display: flex;
+    height: 56vh;
+    border-radius: 100%;
+    
+    
+    
+    
+    
+}
+.contactform{
+    margin: 20px 85px;
+}
+.contactform h1{
+    padding: 12px 0px;
+}
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input {
+    width:26vw;
+    border-radius: 5px;
+    margin:6px 0 0 0;
+    padding: 3px;
+}
+#emailHelp{
+    font-size: 12px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 24px;
+    margin: 2px 0;
+}
+.contactform form button{
+    font-size: 14px;
+    cursor: pointer;
+    padding: 9px 10px;
+     border-radius: 10px;
+     border: 2px solid rgb(27, 106, 49);
+}
+.contactform form button:hover{
+    color:dodgerblue;
+}
+h3{
+    
+    font-size: 30px;
+}
+.intro{
+    margin: 30px 85px;
+}
+.col-log-6 ul{
+    list-style: none;
+    margin: 0px 40px;
+}
+.row{
+    display: flex;
+    margin: 10px 5px;
+    
+}
+h2{
+    padding: 2px 2px;
+    font-size: 30px;
+}
+p{
+    padding: 2px 2px;
+}
+.skillcontainer{
+    padding: 12px;
+}
+.skillItem{
+    display: flex;
+    align-items: center;
+
+}
+.skill{
+    width: 265px;
+    background-color: red;
+    height: 6px;
+    border: 2px solid black;
+}
+.t5{
+    width: 125px;
+    background-color: greenyellow;
+}
+.t2{
+    background-color: aqua;
+    width: 15px;
+}
+h4{
+    font-size: 30px;
+}
+p1{
+    font-size: 70px;
+    margin: 0 2px;
+}
+h5{
+    font-size: 20px;
+}
+.sidebarGo{
+    transform: translate(-443px,0px);
+    position: absolute;
+  }
+
+@media (max-width:1615px){
+    
+       
+    
+  /*.sidebar{
+        transform: translate(-443px,0px);
+        position: absolute;
+      }*/
+
+}
+.cross{
+width: 28px;
+margin: 0 146px;
+ ;
+}
+.menubar{
+width: 25px;
+}
+.menu{
+    margin: 5px;
+    padding: 5px;
+    position:absolute ;
+    top: 8px;
+    left: 8px;
+    cursor: pointer;
+}
+    
+h6{
+    font-size: 45px;
+}
+.service p{
+    font-size: 30px;
+}
+.service{
+    margin: 30px 85px;
+}
+
